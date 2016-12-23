@@ -13,7 +13,7 @@ module.exports = {
     ,
     output: {
         path: path.resolve(RootPath, 'dist'),
-        filename: 'bundle.js',
+        filename: 'bundle.js'
 
     },
     module: {
@@ -39,7 +39,7 @@ module.exports = {
 
     },
     devServer: {
-        contentBase: 'dist',  //Relative directory for base of server
+        contentBase: 'server',  //Relative directory for base of server
         devtool: 'eval',
         hot: true,        //注意点2：热替换配置点2
         inline: true,
